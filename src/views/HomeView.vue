@@ -254,7 +254,7 @@ b {
 }
 
 .me-photo {
-  width: 	114px;
+  width: 114px;
   height: 112px;
 }
 
