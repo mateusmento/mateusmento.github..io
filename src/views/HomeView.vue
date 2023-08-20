@@ -49,7 +49,7 @@ function url(path: string) {
           Contribute<br />
         </h1>
         <div class="glass-section flx-vert">
-          <img class="me-photo" :src="url('../assets/me.png')"/>
+          <div class="me-photo"></div>
           <button class="lets-talk">
             Let's Talk <ArrowRight/>
           </button>
@@ -256,6 +256,9 @@ b {
 .me-photo {
   width: 114px;
   height: 112px;
+  background-image: url('../assets/me.png');
+  background-position: center;
+  background-size: cover;
 }
 
 .logo-headline {
