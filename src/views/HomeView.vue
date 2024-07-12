@@ -4,6 +4,12 @@ import ArrowRight from '@/assets/ArrowRight.vue';
 const experiences = [
   {
     occupation: "Software Engineer",
+    stack: "Node.js/React",
+    company: "Shaw and Partners",
+    period: "MAY 2023 to TODAY",
+  },
+  {
+    occupation: "Software Engineer",
     stack: "Java/Vue",
     company: "Blumar",
     period: "AGO 2019 to AGO 2022",
@@ -13,12 +19,6 @@ const experiences = [
     stack: ".NET/Angular",
     company: "Minds at Work",
     period: "AGO 2018 to AGO 2019",
-  },
-  {
-    occupation: "Software Engineer",
-    stack: "Node.js/React",
-    company: "Doctor SAC",
-    period: "MAR 2018 to AGO 2018",
   },
 ]
 
